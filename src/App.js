@@ -13,6 +13,7 @@ import Contactanos from './component/Contactanos.js';
 import PiePagina from './component/PiePagina.js';
 import RegresarInicio from './component/reutilizables/BotonInicio.js';
 import Testimonio from './component/Testimonio.js';
+import FAQ from './component/FAQ.js';
 function App() {
   return (
     <div className="App">
@@ -41,6 +42,9 @@ function App() {
         {/* inicio proyecto */}
         <Testimonio/>
         {/* fin de proyecto */}
+
+        {/* Preguntas Frecuentes */}
+        <FAQ faqs={faqs}/>
 
         <p></p>
         {/* inicio galeria */}
