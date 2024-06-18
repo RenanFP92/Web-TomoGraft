@@ -8,11 +8,11 @@ import MenuPrincipal from './component/MenuPrincipal.js';
 import Carrusel from './component/Carrussel.js';
 import Conocenos from './component/Conocenos.js';
 import Servicios from './component/Servicios.js';
-import Proyecto from './component/Proyecto.js';
 import Galeria from './component/Galeria.js';
 import Contactanos from './component/Contactanos.js';
 import PiePagina from './component/PiePagina.js';
 import RegresarInicio from './component/reutilizables/BotonInicio.js';
+import Testimonio from './component/Testimonio.js';
 function App() {
   return (
     <div className="App">
@@ -39,7 +39,7 @@ function App() {
         {/* fin fortalezas */}
 
         {/* inicio proyecto */}
-        <Proyecto/>
+        <Testimonio/>
         {/* fin de proyecto */}
 
         <p></p>
