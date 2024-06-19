@@ -1,4 +1,3 @@
-import LeafletMap from '../mapa';
 function Contactanos() {
     return (
         <div>
@@ -23,7 +22,7 @@ function Contactanos() {
                 </div>
                 <div className="card">
                     <div className="card-body">
-                        <LeafletMap />
+                       
                     </div>
                 </div>
             </div>

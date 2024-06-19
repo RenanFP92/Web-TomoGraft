@@ -13,7 +13,7 @@ import Contactanos from './component/Contactanos.js';
 import PiePagina from './component/PiePagina.js';
 import RegresarInicio from './component/reutilizables/BotonInicio.js';
 import Testimonio from './component/Testimonio.js';
-import Preguntas from './component/Preguntas.js';
+import FaqAccordion from './component/FaqAccordion';
 function App() {
   return (
     <div className="App">
@@ -44,7 +44,7 @@ function App() {
         {/* fin de proyecto */}
 
         {/* Preguntas Frecuentes */}
-        
+        <FaqAccordion />
         {/*Fin de Preguntas*/ }
 
         <p></p>
