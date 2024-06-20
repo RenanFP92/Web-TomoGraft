@@ -1,15 +1,9 @@
-import logo from "../img/logo.png";
 
 function MenuPrincipal() {
     return(
     <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#ffffff' }}  id="menuprincipal">
         <div className="container-fluid">
-
-            <a className="navbar-brand" href="#"  >
-            <img src={logo} style={{ width: '140px', marginRight: '10px' }} alt="Logo"/>
-
-
-            </a>
+            <a className="navbar-brand" href="#"  style={{ color: 'White ' , fontSize: '30px'  }}>TomoGraft</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
