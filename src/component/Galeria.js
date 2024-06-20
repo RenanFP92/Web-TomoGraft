@@ -27,12 +27,14 @@ function Galeria() {
                     <div className="row g-0">
                         <div className="col-md-4">
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 className="card-title">Conoce el interior de nuestra sede: : Un Recorrido Virtual</h5>
+                                <hr class="border border-primary border-3 opacity-75"></hr>
+                                <p className="card-text"> ¡Acompáñanos en este recorrido virtual y sumérgete en la experiencia única de conocer el interior de nuestra sede!</p>
+                                <p className="card-text">Sean bienvenidos a un recorrido exclusivo por el interior de nuestra sede. En este video, te invitamos a explorar cada rincón de nuestras instalaciones en San Miguel, Lima - Perú. Desde la recepción, donde serás recibido con calidez, hasta nuestras áreas especializadas donde ocurre la magia del diagnóstico dental avanzado.</p>
                             </div>
                         </div>
                         <div className="col-md-8">
-                        <video controls style={{ maxHeight: '180px' }}>
+                        <video controls style={{width: '600px', height: '450px'}}>
                             <source src={videoAnuncio} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
