@@ -89,15 +89,6 @@
   font-size: 1.2rem;
 }
 
-.service-card button {
-  background-color: #38a1b2;
-  border: none;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 .service-card button:hover {
   background-color: #2e8b99;
 }

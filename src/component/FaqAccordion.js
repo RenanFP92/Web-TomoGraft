@@ -11,10 +11,12 @@ const FaqAccordion = () => {
 
   return (
     <div className="faq-container">
+      <h3 id="faq">PREGUNTAS FRECUENTES</h3>
       {[
-        { question: "¿Pregunta frecuente 1?", answer: "Respuesta a la pregunta frecuente 1." },
-        { question: "¿Pregunta frecuente 2?", answer: "Respuesta a la pregunta frecuente 2." },
-        { question: "¿Pregunta frecuente 3?", answer: "Respuesta a la pregunta frecuente 3." }
+        { question: "¿TIENEN OTRA SEDE?", answer: "Actualmente solo contamos con nuestra sede en San miguel pero a guturo estaremonos expandiendo para estar más cerca a nuestros pacientes y darles mayor comodidad." },
+        { question: "¿CUALES SON SUS HORARIOS DE ATENCIÓN?", answer: "Nuestra atención es de Lunes a Sábado de 9:30 am - 6:30 pm." },
+        { question: "¿CUANTOS AÑOS DE EXPERIENCIA TIENEN?", answer: "Contamos con 4 años de experiencia en nuestro trabajo y aemás de los años de experiencias con los que cuentan nuestros trabajadores ene el rubro de la tomografía" },
+        { question: "¿CUENTAN CON DESCUENTO DE SEGURO?", answer: "Contamos con descuentos por el seguro que nuestros pacientes tengan, además contamos con paquetes para el alcance de nuestros pacientes" }
       ].map((item, index) => (
         <div className="accordion-item" key={index}>
           <div className="accordion-header" onClick={() => toggleAccordion(index)}>
@@ -27,7 +29,8 @@ const FaqAccordion = () => {
               maxHeight: activeIndex === index ? `${contentRefs.current[index].scrollHeight}px` : '0'
             }}
           >
-            {item.answer}
+            <hr></hr>
+          {item.answer}
           </div>
         </div>
       ))}

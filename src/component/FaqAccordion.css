@@ -1,7 +1,13 @@
 .faq-container {
   padding-top: 5%;
   padding-bottom: 5%;
+  font-size: 1.3rem;
 }
+
+.accordion-header {
+  padding-bottom: 5px;
+}
+
 .accordion {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -11,7 +17,7 @@
   border-top: 1px solid #ddd;
   border:solid;
   border-radius:2%;
-  border-color:gray;
+  border-color:#38a1b2;
 }
 
 .accordion-header {
