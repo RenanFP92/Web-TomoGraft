@@ -31,11 +31,7 @@ function MenuPrincipal() {
                             <a className="nav-link" href="#cubicanos"  style={{ color: 'white', fontSize: '19px' }}> Ubícanos</a>
                         </li>
                         <li className="nav-item">
-<<<<<<< Updated upstream
-                            <a className="nav-link" href="#contactanos"  style={{ color: 'White ', fontSize: '19px' }} >Contáctanos</a>
-=======
                             <a className="nav-link" href="#contactanos" style={{ color: 'White ' , fontSize: '19px'  }}>Contáctanos</a>
->>>>>>> Stashed changes
                         </li>
                     </ul>
                 </div>
