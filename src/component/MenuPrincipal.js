@@ -2,7 +2,7 @@ import logo from "../img/logo.png";
 
 function MenuPrincipal() {
     return(
-    <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#2e8b99' }}  id="menuprincipal">
+    <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#ffffff' }}  id="menuprincipal">
         <div className="container-fluid">
 
             <a className="navbar-brand" href="#"  >
@@ -16,22 +16,22 @@ function MenuPrincipal() {
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul className="navbar-nav" >
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="conocenos" style={{ color: 'White ' , fontSize: '19px'  }} >  ¿Quiénes somos?</a>
+                            <a className="nav-link active" aria-current="page" href="conocenos" style={{ color: 'black ' , fontSize: '19px'  }} >  ¿Quiénes somos?</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#servicios_tecnologia"  style={{ color: 'White ', fontSize: '19px'  }} >Servicios y Tecnología</a>
+                            <a className="nav-link" href="#servicios_tecnologia"  style={{ color: 'black ', fontSize: '19px'  }} >Servicios y Tecnología</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#testimonios"  style={{ color: 'White ',fontSize: '19px'  }} >Testimonios</a>
+                            <a className="nav-link" href="#testimonios"  style={{ color: 'black ',fontSize: '19px'  }} >Testimonios</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#preguntas_frecuentes" style={{ color: 'White ' ,fontSize: '19px' }} >Preguntas Frecuentes</a>
+                            <a className="nav-link" href="#preguntas_frecuentes" style={{ color: 'black ' ,fontSize: '19px' }} >Preguntas Frecuentes</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#cubicanos"  style={{ color: 'white', fontSize: '19px' }}> Ubícanos</a>
+                            <a className="nav-link" href="#cubicanos"  style={{ color: 'black', fontSize: '19px' }}> Ubícanos</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contactanos" style={{ color: 'White ' , fontSize: '19px'  }}>Contáctanos</a>
+                            <a className="nav-link" href="#contactanos" style={{ color: 'black ' , fontSize: '19px'  }}>Contáctanos</a>
                         </li>
                     </ul>
                 </div>

@@ -9,14 +9,14 @@ function PiePagina() {
                 </a>
                 <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Derechos reservados</span><p> </p>
 
-                <a href="https://facebook.com" class="facebook ">
+                <a href="https://www.facebook.com/tomograft.pe" class="facebook ">
                     <i class="fa-brands fa-facebook"   ></i>
                 </a>
-                <a href="https://twitter.com" class="twitter">
-                    <i class="fa-brands fa-x-twitter"></i>
+                <a href="https://api.whatsapp.com/send?phone=%2B51983537327&context=ARD5HPq99O5lNooTWu1IJyDHjE38zypKE_5zVsDnWK93cb-wr04K6Y49qnT_Le5O9CSmkubgD6CoWWkT5Z4UylvyQvhXOA7WP-lZA0TF8Gr_ilbgm5g0fg4hp2Hf3Zjg-GPbtJ0qvDIuVr4bgpPzKtsFvw&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwZXh0bgNhZW0CMTAAAR1qGG8ALn7JfZnCI3VZrfPIEf4niQJCJBrVS2oTS5492gBjIv2sZc7vKI0_aem_ZmFrZWR1bW15MTZieXRlcw" class="whatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
                 </a>
 
-                <a href="https://tiktok.com" class="tiktok">
+                <a href="https://www.tiktok.com/@tomograft.peru" class="tiktok">
                     <i class="fa-brands fa-tiktok"></i>
                 </a>
 
