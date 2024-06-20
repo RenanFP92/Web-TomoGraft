@@ -13,8 +13,10 @@ function Galeria() {
                         </div>
                         <div className="col-md-4">
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 className="card-title">Mapa de Ubicación de Tomograft</h5>
+                                <hr class="border border-primary border-3 opacity-75"></hr>
+                                <p className="card-text">Tomograft está convenientemente ubicado en el corazón de Lima Peru, asegurando un acceso fácil y rápido para nuestros pacientes. Nuestra clínica, situada en Calle Martin de Murúa 150, Oficina 505 de San Miguel,se destaca por su proximidad y conveniencia, facilitando una experiencia cómoda desde el momento de la llegada.</p>
+                                <p className="card-text">Visítenos con nuestro enfoque en la excelencia pueden beneficiar su salud dental. Estamos aquí para transformar sonrisas con la más alta calidad de cuidado y servicio.</p>
                             </div>
                         </div>
                     </div>

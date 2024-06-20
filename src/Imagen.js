@@ -11,5 +11,7 @@ testimonio1:require('./img/testimonio1.png'),
 testimonio2:require('./img/testimonio2.png'),
 testimonio3:require('./img/testimonio3.png'),
 fotoprincipal:require('./img/AcercaDeTomograft.jpeg'),
+fotoprincipal2:require('./img/AcercaDeTomograft1.jpg'),
+
 }
 export default Imagen;
