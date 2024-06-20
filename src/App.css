@@ -95,3 +95,15 @@
 .service-card button:hover {
   background-color: #2e8b99;
 }
+
+.bold-text {
+  font-weight: bold;
+}
+
+.card-body {
+  margin-top:33px;
+}
+
+.card-body p, .card-body ul {
+  text-align: justify;
+}
