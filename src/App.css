@@ -50,18 +50,21 @@
 }
 
 .facebook {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 12px;
+  margin-right:12px;
+  color:#2e8b99;
 }
 
 .whatsApp {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+  color:#2e8b99;
 }
 
 .tiktok {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+  color:#2e8b99;
 }
 
 .service-container{
