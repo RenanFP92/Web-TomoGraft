@@ -2,8 +2,8 @@ import Servicio from "./reutilizables/Servicio";
 import Imagen from '../Imagen';
 function Servicios() {
     return (
-        <div className="service-container text-center my-5">
-            <h2 className="mb-4 text-white">Nuestros servicios a tu alcance</h2>
+        <div className=" service-container text-center my-5">
+            <h2 id="servicios"className="mb-4 text-white">NUESTROS SERVICIOS A TU ALCANCE</h2>
             <div className="row justify-content-center">
                 <div className="col-sm-4 col-md-2 mb-3">
                     <Servicio

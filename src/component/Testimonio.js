@@ -3,7 +3,7 @@ import Imagen from "../Imagen";
 function Testimonio() {
   return (
     <div className="opinion-container">
-      <h2 className="mb-4 text-white">¿Que opinan de nosotros?</h2>
+      <h2 id="testimonios"className="mb-4 text-white">¿QUE OPINAN DE NOSOTROS?</h2>
       <div className="row justify-content-center">
 
         <div className="col-md-3 col-md-2 mb-3">
