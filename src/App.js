@@ -8,7 +8,7 @@ import MenuPrincipal from './component/MenuPrincipal.js';
 import Carrusel from './component/Carrussel.js';
 import Conocenos from './component/Conocenos.js';
 import Servicios from './component/Servicios.js';
-import Galeria from './component/Galeria.js';
+import Ubicanos from './component/Ubicanos.js';
 import Contactanos from './component/Contactanos.js';
 import PiePagina from './component/PiePagina.js';
 import RegresarInicio from './component/reutilizables/BotonInicio.js';
@@ -28,20 +28,21 @@ function App() {
         <Carrusel/>
         {/* fin carrusel */}
         <hr></hr>
-        {/* seccion conoceme */}
+        {/* seccion conocenos */}
         {/* titulo */}
         <p></p>
+        
         {/* quien soy - card */}
         <Conocenos />
         {/* fin conoceme */}
 
-        {/* fortalezas y hobbies */}
+        {/* Servicios */}
         <Servicios />
-        {/* fin fortalezas */}
+        {/* fin Servicios */}
 
-        {/* inicio proyecto */}
+        {/* inicio Testimonio */}
         <Testimonio/>
-        {/* fin de proyecto */}
+        {/* fin de Testimonio */}
 
         {/* Preguntas Frecuentes */}
         <FaqAccordion />
@@ -49,9 +50,9 @@ function App() {
 
         <p></p>
 
-        {/* inicio galeria */}
-        <Galeria/>
-        {/* cerrando galeria */}
+        {/* inicio Ubicanos */}
+        <Ubicanos/>
+        {/* cerrando Ubicanos */}
 
         {/* abriendo conractanos */}
         <Contactanos/>

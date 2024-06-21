@@ -1,6 +1,6 @@
 
 import videoAnuncio from '../videos/videoAnuncio.mp4';
-function Galeria() {
+function Ubicanos() {
     return (
         <div>
             <h2 id="galeria">Galería</h2>
@@ -47,4 +47,4 @@ function Galeria() {
         </div>
     )
 }
-export default Galeria;
+export default Ubicanos;

@@ -1,37 +1,21 @@
 import Imagen from '../Imagen';
-function Conocenos(){
-    return(
+function Conocenos() {
+  return (
     <div >
 
-    <div className="card mb-3" style={{ maxwidth: '540px' }} >
-      <div className="row g-0">
-        <div className="col-md-4">
-          <img src={Imagen.fotoprincipal}  className="img-fluid rounded-start" alt="..."/>
-        </div>
-        <div className="col-md-8">
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p className="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <div className="card mb-3" style={{ maxwidth: '540px' }} >
+        <div className="row g-0">
+          <div className="col-md-4">
+            <img src={Imagen.fotoprincipal} className="img-fluid rounded-start" alt="..." />
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">ACERCA DE TOMOGRAFT</h5>
+              <p className="card-text">TOMOGRAFT se dedica a proporcionar el mejor diagnóstico para pacientes odontológicos mediante el uso de imágenes de alta definición y un servicio de laboratorio dental de excelencia. Nuestro objetivo es mejorar la salud bucal y la calidad de vida de nuestros pacientes. Utilizamos tecnología avanzada para ofrecer imágenes detalladas que permiten una identificación precisa de problemas dentales y una planificación de tratamientos personalizados. Además, nuestro laboratorio dental fabrica prótesis y coronas de alta calidad, asegurando un tratamiento coherente y efectivo. En TOMOGRAFT, creemos que una buena salud bucal impacta directamente en el bienestar general, por lo que nos esforzamos por brindar una experiencia cómoda y un cuidado integral, acompañando a nuestros pacientes hacia una vida más saludable y plena.</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div className="card mb-3" style={{ maxwidth: '540px' }} >
-      <div className="row g-0">
-        <div className="col-md-4"> 
-          <img src={Imagen} className="img-fluid rounded-start" alt="..."/>
-        </div>
-        <div className="col-md-8">
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p className="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
 
       <div className="card mb-3" style={{ maxwidth: '540px' }}>
         <div className="row g-0">
